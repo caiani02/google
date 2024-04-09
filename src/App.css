@@ -1,0 +1,56 @@
+html, body, #root {
+  margin:0;
+  padding:0;
+  border:0;
+  height:100%;
+  width:100%;
+}
+
+.google {
+  background-color:#ffffff;
+  display:flex;
+  justify-content: center;
+  height:100%;
+  align-items:center;
+  text-align: center;
+}
+
+
+.google-item{
+  background-color:#ffffff;
+  border:1px solid rgb(0, 0, 0);
+  padding:10px;
+  margin:10px;
+  border-radius:20px;
+  width: 500px;
+  float:center;
+  text-align: left;
+  
+  transition: 1s;
+}
+
+.google-item:hover{
+  box-shadow: 8px 5px 10px rgb(153, 153, 153);
+}
+
+.google-img{
+  border-radius: 20px;
+  margin:20px;
+  padding: 0%;
+  width: 350px;
+}
+
+.botton{
+  text-align: center;
+  background-color: #ebe9e9;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 40px;
+}
+
+.botton:hover{
+  border: 2px solid #dddada;
+}
